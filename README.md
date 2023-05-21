@@ -1,6 +1,6 @@
 # Loyalty Points Kaufland App
 
-This repository will contain our Capstone Project with Kaufland, the Loyalty Points for the Kuafland App! We are starting with our Product Backlog
+This repository will contain our Capstone Project with Kaufland, the Loyalty Points for the Kaufland App! We are starting with our Product Backlog
 
 ## Flowchart
 
