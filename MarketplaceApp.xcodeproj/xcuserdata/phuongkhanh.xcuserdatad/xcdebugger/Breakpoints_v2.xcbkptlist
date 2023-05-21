@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3F6DEBBC-7CE4-4F63-A24E-0C0BC2532327"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DC9D3F9-FC2D-4784-AFAB-E103560A9303"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Model/StreakViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "StreakLPHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3DC9D3F9-FC2D-4784-AFAB-E103560A9303 - 1409524329b1f5fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for shared"
+                  moduleName = "MarketplaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phuongkhanh/Documents/Capstone/kauflandNEW_CLONE/Model/StreakViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "3DC9D3F9-FC2D-4784-AFAB-E103560A9303 - 5db9f2b0dc4f477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketplaceApp.StreakHandler.shared.unsafeMutableAddressor : MarketplaceApp.StreakHandler"
+                  moduleName = "MarketplaceApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phuongkhanh/Documents/Capstone/kauflandNEW_CLONE/Model/StreakViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FB81771-0C43-4F7B-AD7C-F106B2ACF82C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View/Home/SwiftUIViews/ScrollChallengeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "ExampleScrollView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
