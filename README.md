@@ -25,7 +25,6 @@ Im folgenden definieren wir einen User := Gültig registrierter und eingeloggter
 
 ### Informationen zum Zurechtfinden im Code
 
-- Unsere lauffähige Version der Software nach dem ersten Sprint liegt im Branch "appextension"
 - Die relevanten Views zu unseren Features im Home Tab sind zu finden unter View/Home/SwiftUIViews; weitere Änderungen sind im HomeViewController und im zughörigen Storyboard zu finden
 - Änderungen für Features im Account Tab sind zu finden unter View/Account: im AccountViewController, AccountViewModel und im Ordner Cell/StreakAndLP; außerdem im Ordner Utility in der Datei Constants
 - Die Funktion der Streak ist zu finden unter Model/ModelExtensions/StreakViewModel
