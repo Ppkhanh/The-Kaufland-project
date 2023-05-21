@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PIEnergyBadgeOldView" customModule="KMarketPlaceKit" customModuleProvider="target">
+            <connections>
+                <outlet property="energyLevelAdditionLabel" destination="8Sd-sZ-ym1" id="NCG-t6-xh6"/>
+                <outlet property="energyLevelLabel" destination="Btg-J6-z7W" id="5P7-wE-sT0"/>
+                <outlet property="energyLevelView" destination="FBA-VK-lMa" id="Ega-58-iq8"/>
+                <outlet property="energyRangeLabel" destination="S00-R5-Per" id="2GY-s9-jaA"/>
+                <outlet property="stackView" destination="LzU-Lb-QOW" id="vCA-3b-E2p"/>
+                <outlet property="triangleView" destination="94m-px-hkj" id="1ih-sm-JtC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="16"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LzU-Lb-QOW">
+                    <rect key="frame" x="0.0" y="0.0" width="296" height="16"/>
+                    <subviews>
+                        <view contentMode="right" translatesAutoresizingMaskIntoConstraints="NO" id="YJy-Bl-gaR" userLabel="gesture view">
+                            <rect key="frame" x="0.0" y="0.0" width="54.5" height="16"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94m-px-hkj" userLabel="triangle view">
+                                    <rect key="frame" x="0.0" y="0.0" width="8" height="16"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="16" id="0wy-DP-0Bq"/>
+                                        <constraint firstAttribute="width" constant="8" id="xBO-bf-Yag"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBA-VK-lMa" userLabel="energy level view">
+                                    <rect key="frame" x="8" y="0.0" width="46.5" height="16"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-J6-z7W">
+                                            <rect key="frame" x="0.0" y="0.0" width="11.5" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+++" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sd-sZ-ym1">
+                                            <rect key="frame" x="11.5" y="0.0" width="31" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Btg-J6-z7W" firstAttribute="top" secondItem="FBA-VK-lMa" secondAttribute="top" id="65i-tc-BvT"/>
+                                        <constraint firstAttribute="bottom" secondItem="8Sd-sZ-ym1" secondAttribute="bottom" id="6Cr-Un-uUK"/>
+                                        <constraint firstItem="Btg-J6-z7W" firstAttribute="leading" secondItem="FBA-VK-lMa" secondAttribute="leading" id="D8R-R3-4Ko"/>
+                                        <constraint firstItem="8Sd-sZ-ym1" firstAttribute="top" secondItem="FBA-VK-lMa" secondAttribute="top" id="NK1-gV-wdf"/>
+                                        <constraint firstItem="8Sd-sZ-ym1" firstAttribute="leading" secondItem="Btg-J6-z7W" secondAttribute="trailing" id="PyM-3z-m5X"/>
+                                        <constraint firstAttribute="bottom" secondItem="Btg-J6-z7W" secondAttribute="bottom" id="gbP-Sf-6aF"/>
+                                        <constraint firstAttribute="trailing" secondItem="8Sd-sZ-ym1" secondAttribute="trailing" constant="4" id="kQm-b3-Rh1"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="94m-px-hkj" firstAttribute="top" secondItem="YJy-Bl-gaR" secondAttribute="top" id="1dR-N2-J9c"/>
+                                <constraint firstItem="FBA-VK-lMa" firstAttribute="leading" secondItem="94m-px-hkj" secondAttribute="trailing" id="1pK-Ee-TTZ"/>
+                                <constraint firstItem="94m-px-hkj" firstAttribute="bottom" secondItem="FBA-VK-lMa" secondAttribute="bottom" id="4gP-gF-axe"/>
+                                <constraint firstItem="94m-px-hkj" firstAttribute="leading" secondItem="YJy-Bl-gaR" secondAttribute="leading" id="5gc-q6-r7a"/>
+                                <constraint firstAttribute="bottom" secondItem="FBA-VK-lMa" secondAttribute="bottom" id="Bev-oA-rhO"/>
+                                <constraint firstItem="FBA-VK-lMa" firstAttribute="top" secondItem="YJy-Bl-gaR" secondAttribute="top" id="FAg-aM-efJ"/>
+                                <constraint firstAttribute="trailing" secondItem="FBA-VK-lMa" secondAttribute="trailing" id="Rr2-XN-JX1"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Spectrum A++ to E" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S00-R5-Per">
+                            <rect key="frame" x="64.5" y="0.0" width="231.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Cau-pS-zcd" appends="YES" id="TEb-RK-Shg"/>
+                    </connections>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="LzU-Lb-QOW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1Kx-gq-Jtm"/>
+                <constraint firstAttribute="bottom" secondItem="LzU-Lb-QOW" secondAttribute="bottom" id="OOn-QA-Xb2"/>
+                <constraint firstAttribute="trailing" secondItem="LzU-Lb-QOW" secondAttribute="trailing" id="eDT-dh-h8i"/>
+                <constraint firstItem="LzU-Lb-QOW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vgp-jI-HkQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="185.50724637681162" y="-198.88392857142856"/>
+        </view>
+        <tapGestureRecognizer id="Cau-pS-zcd">
+            <connections>
+                <action selector="didTapBadge:" destination="-1" id="Una-89-6u7"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
