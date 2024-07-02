@@ -2,7 +2,7 @@
 //  LPPopupView.swift
 //  MarketplaceApp
 //
-//  Created by Linus Lange on 10.11.22.
+//  Created by Khanh Pham on 10.11.22.
 //
 
 import SwiftUI
