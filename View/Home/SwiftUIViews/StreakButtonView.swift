@@ -2,7 +2,7 @@
 //  StreakButtonView.swift
 //  MarketplaceApp
 //
-//  Created by Linus Lange on 10.11.22.
+//  Created by Linus Lange and Khanh Pham on 10.11.22.
 //
 
 import SwiftUI
@@ -35,7 +35,6 @@ struct StreakButtonView: View {
 
             showDailyPopup = false
             showStreakPopup.toggle()
-          // StreakViewModel.setStreak(to: 80)
             streakMilestone.setStateafter30(streak: streakInt)
         
             
