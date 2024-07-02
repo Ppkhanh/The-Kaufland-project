@@ -2,7 +2,7 @@
 //  DailyStreakPopupView.swift
 //  MarketplaceApp
 //
-//  Created by Linus Lange on 16.11.22.
+//  Created by Khanh Pham on 16.11.22.
 //
 
 import SwiftUI
@@ -82,23 +82,6 @@ struct DailyStreakPopupView: View {
                         .font(Font(UIFont.body12))
                         .foregroundColor(KauflandColors.white.swiftUI)
                     Spacer()
-                    //                Text("Es sind nur noch " + String(daysTilMilestone) + " Tage bis zum nächsten Streak Meilenstein.")
-                    //                    .font(Font(UIFont.body12))
-                    //                    .foregroundColor(KauflandColors.black.swiftUI)
-                    ////                    .multilineTextAlignment(.center)
-                    //                HStack (alignment: .center){
-                    //                    Text("Nur noch ")
-                    //                        .font(Font(UIFont.body12))
-                    //                        .foregroundColor(KauflandColors.black.swiftUI)
-                    //
-                    //                    Text(String(daysTilMilestone))
-                    //                        .font(Font(UIFont.title1))
-                    //                        .foregroundColor(KauflandColors.black.swiftUI)
-                    //                    Text(" Tage bis zum nächsten Streak Meilenstein.")
-                    //                        .font(Font(UIFont.body12))
-                    //                        .foregroundColor(KauflandColors.black.swiftUI)
-                    
-                    
                 }.background(RoundedRectangle(cornerRadius: 10)
                     .fill(KauflandColors.loyaltyPrimaryGradient.swiftUI)
                     .frame(width: 320, height: 100)   )
