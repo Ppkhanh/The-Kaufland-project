@@ -2,7 +2,7 @@
 //  ProfileStreakLPView.swift
 //  MarketplaceApp
 //
-//  Created by Linus Lange on 16.11.22.
+//  Created by Linus Lange and Khanh Pham on 16.11.22.
 //
 
 import SwiftUI
