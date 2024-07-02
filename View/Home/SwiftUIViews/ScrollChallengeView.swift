@@ -163,7 +163,6 @@ struct ExampleScrollView: View {
     }
     
     init() {
-        //some kind of detector tracking the user's scrolling position?????
         let detector = CurrentValueSubject<CGFloat, Never>(0)
         self.publisher = detector
             .debounce(for: .seconds(0.2), scheduler: DispatchQueue.main)
